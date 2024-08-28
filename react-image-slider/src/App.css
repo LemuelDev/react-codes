@@ -1,0 +1,31 @@
+.title-project {
+  text-align: center;
+  font-size: 2rem;
+  font-family: cursive;
+
+}
+.card {
+  padding: 2rem;
+  max-width: 500px;
+  display: grid;
+  place-content: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.slider {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 1rem;
+}
+.backButton, .nextButton {
+  font-size: 2rem;
+  cursor: pointer;
+  transition: .45s;
+}
+.backButton:hover, .nextButton:hover {
+  transform: scale(1.1);
+  box-shadow: 2px 2px 2px #fff;
+}

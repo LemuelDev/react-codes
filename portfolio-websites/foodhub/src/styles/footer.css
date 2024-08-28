@@ -1,0 +1,42 @@
+section {
+    width: 100%;
+    height: auto;
+}
+.wrapper {
+   text-align: center;
+   padding-block: 3rem;
+   font-size: 2rem;
+   
+}
+.wrapper h4{
+    padding-left: 4rem;
+}
+.foot {
+    height: 20vh;
+    width: auto;
+    background-color: coral;
+    color: #111;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+}
+.cards h2, .cards a{
+    font-size: 1.5rem;
+    color: inherit;
+}
+.btn-contact{
+    padding: .7rem 1.5rem;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    background-color: #111;
+    color: coral;
+    font-size: 1.1rem;
+}
+.cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}

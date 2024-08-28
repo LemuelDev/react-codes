@@ -1,0 +1,227 @@
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 15px;
+    background-color: #606C5D;
+    color: #fff;
+}
+.logo {
+    font-size: 2rem;
+    letter-spacing: 1px;
+
+}
+.navbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    padding: 10px;
+}
+.navbar li {
+    list-style: none;
+}
+.navbar li a {
+    text-decoration: none;
+    font-size: 1.1rem;
+    color: #fff;
+    transition: .45s ease-in;
+    cursor: pointer;
+   
+}
+.navbar li a:hover {
+    color: #F7E6C4;
+    letter-spacing: 1px;
+}
+.title {
+    font-size: 2.5rem;
+    font-family: cursive;
+    padding-block: 1rem;
+}
+.subHeading {
+    font-size: 1.2rem;
+   
+    letter-spacing: 1px;
+    padding-bottom: 1rem;
+}
+.browseBtn{
+  color: #fff;
+  text-transform: uppercase;
+  text-decoration: none;
+  border: 2px solid #606C5D;
+  padding: 10px 20px;
+  font-size: 17px;
+  font-weight: bold;
+  background: transparent;
+  position: relative;
+  transition: all 1s;
+  overflow: hidden;
+}
+.browseBtn::before{
+  content: '';
+  position: absolute;
+  height: 100%;
+  width: 0%;
+  top: 0;
+  left: -40px;
+  transform: skewX(45deg);
+  background-color: #606C5D;
+  z-index: -1;
+  transition: all 1s;
+  color: #fff;
+}
+.browseBtn:hover::before{
+      width: 160%;
+}
+.browseBtn:hover {
+    color: #fff;
+    z-index: 1;
+}
+.hero {
+    display: grid;
+    place-content: center;
+    text-align: center;
+    min-height: 60vh;
+    border: 1px solid #606C5D;
+    background-color: #F1F1F1;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100%25' height='100%25' viewBox='0 0 100 60'%3E%3Cg %3E%3Crect fill='%23F1F1F1' width='11' height='11'/%3E%3Crect fill='%23eeefee' x='10' width='11' height='11'/%3E%3Crect fill='%23ececec' y='10' width='11' height='11'/%3E%3Crect fill='%23e9eae9' x='20' width='11' height='11'/%3E%3Crect fill='%23e6e7e6' x='10' y='10' width='11' height='11'/%3E%3Crect fill='%23e4e5e4' y='20' width='11' height='11'/%3E%3Crect fill='%23e1e3e1' x='30' width='11' height='11'/%3E%3Crect fill='%23dfe0de' x='20' y='10' width='11' height='11'/%3E%3Crect fill='%23dcdedc' x='10' y='20' width='11' height='11'/%3E%3Crect fill='%23d9dcd9' y='30' width='11' height='11'/%3E%3Crect fill='%23d7d9d6' x='40' width='11' height='11'/%3E%3Crect fill='%23d4d7d4' x='30' y='10' width='11' height='11'/%3E%3Crect fill='%23d2d4d1' x='20' y='20' width='11' height='11'/%3E%3Crect fill='%23cfd2ce' x='10' y='30' width='11' height='11'/%3E%3Crect fill='%23cdd0cc' y='40' width='11' height='11'/%3E%3Crect fill='%23cacdc9' x='50' width='11' height='11'/%3E%3Crect fill='%23c8cbc7' x='40' y='10' width='11' height='11'/%3E%3Crect fill='%23c5c9c4' x='30' y='20' width='11' height='11'/%3E%3Crect fill='%23c2c6c1' x='20' y='30' width='11' height='11'/%3E%3Crect fill='%23c0c4bf' x='10' y='40' width='11' height='11'/%3E%3Crect fill='%23bdc2bc' y='50' width='11' height='11'/%3E%3Crect fill='%23bbc0ba' x='60' width='11' height='11'/%3E%3Crect fill='%23b8bdb7' x='50' y='10' width='11' height='11'/%3E%3Crect fill='%23b6bbb4' x='40' y='20' width='11' height='11'/%3E%3Crect fill='%23b3b9b2' x='30' y='30' width='11' height='11'/%3E%3Crect fill='%23b1b6af' x='20' y='40' width='11' height='11'/%3E%3Crect fill='%23aeb4ad' x='10' y='50' width='11' height='11'/%3E%3Crect fill='%23acb2aa' x='70' width='11' height='11'/%3E%3Crect fill='%23a9b0a8' x='60' y='10' width='11' height='11'/%3E%3Crect fill='%23a7ada5' x='50' y='20' width='11' height='11'/%3E%3Crect fill='%23a4aba3' x='40' y='30' width='11' height='11'/%3E%3Crect fill='%23a2a9a0' x='30' y='40' width='11' height='11'/%3E%3Crect fill='%23a0a79e' x='20' y='50' width='11' height='11'/%3E%3Crect fill='%239da49b' x='80' width='11' height='11'/%3E%3Crect fill='%239ba299' x='70' y='10' width='11' height='11'/%3E%3Crect fill='%2398a096' x='60' y='20' width='11' height='11'/%3E%3Crect fill='%23969e94' x='50' y='30' width='11' height='11'/%3E%3Crect fill='%23939b91' x='40' y='40' width='11' height='11'/%3E%3Crect fill='%2391998f' x='30' y='50' width='11' height='11'/%3E%3Crect fill='%238f978c' x='90' width='11' height='11'/%3E%3Crect fill='%238c958a' x='80' y='10' width='11' height='11'/%3E%3Crect fill='%238a9387' x='70' y='20' width='11' height='11'/%3E%3Crect fill='%23879085' x='60' y='30' width='11' height='11'/%3E%3Crect fill='%23858e83' x='50' y='40' width='11' height='11'/%3E%3Crect fill='%23838c80' x='40' y='50' width='11' height='11'/%3E%3Crect fill='%23808a7e' x='90' y='10' width='11' height='11'/%3E%3Crect fill='%237e887b' x='80' y='20' width='11' height='11'/%3E%3Crect fill='%237c8579' x='70' y='30' width='11' height='11'/%3E%3Crect fill='%23798377' x='60' y='40' width='11' height='11'/%3E%3Crect fill='%23778174' x='50' y='50' width='11' height='11'/%3E%3Crect fill='%23757f72' x='90' y='20' width='11' height='11'/%3E%3Crect fill='%23727d70' x='80' y='30' width='11' height='11'/%3E%3Crect fill='%23707b6d' x='70' y='40' width='11' height='11'/%3E%3Crect fill='%236e796b' x='60' y='50' width='11' height='11'/%3E%3Crect fill='%236b7669' x='90' y='30' width='11' height='11'/%3E%3Crect fill='%23697466' x='80' y='40' width='11' height='11'/%3E%3Crect fill='%23677264' x='70' y='50' width='11' height='11'/%3E%3Crect fill='%23657062' x='90' y='40' width='11' height='11'/%3E%3Crect fill='%23626e5f' x='80' y='50' width='11' height='11'/%3E%3Crect fill='%23606C5D' x='90' y='50' width='11' height='11'/%3E%3C/g%3E%3C/svg%3E");
+    background-attachment: fixed;
+    background-size: cover;
+    z-index: -5s;
+}
+.product-section {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, auto));
+    gap: 1rem;
+    place-content: center;
+    max-width: 1050px;
+    margin: 0 auto;
+    padding-inline: 2rem;
+    padding-block: 3rem;
+   
+}
+.product-item:hover {
+    background-color: #abcaa3;
+    transform: scale(1.05);
+}
+.product-title {
+    font-size: 2.5rem;
+    padding-block: 2rem;
+    text-align: center;
+}
+.product-item {
+    max-width: 250px;
+    height: auto;
+    padding: 2px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px rgba(0,0,0, .3);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: .65rem;
+    cursor: pointer;
+    transition: .45s all;
+}
+.productImg {
+    width: 100%;
+    height: auto;
+}
+.description {
+    padding-bottom: 2rem;
+    text-align: center;
+}
+.description-title {
+    padding-block: .5rem;
+    font-size: 1.3rem;
+}
+.description .price{
+    padding-top: .4rem;
+    font-size: 1.2rem;
+}
+.cartBtn {
+    width: 9em;
+    height: 3em;
+    border-radius: 30em;
+    font-size: 15px;
+    font-family: inherit;
+    border: none;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+    box-shadow: 6px 6px 12px #c5c5c5,
+    -6px -6px 12px #ffffff;
+    margin-top: 1rem;
+   
+}
+.cartBtn::before {
+    content: '';
+    width: 0;
+    height: 3em;
+    border-radius: 30em;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-image: linear-gradient(to right, #f8fb99 0%, #606C5D 100%);
+    transition: .5s ease;
+    display: block;
+    z-index: -1;
+ }
+
+.cartBtn:hover::before {
+    width: 9em;
+}
+
+.choices {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    padding-block: 2rem;
+}
+.choices button {
+    padding: .5rem 1rem;
+    font-size: 1rem;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    background-color: #606C5D;
+    color: #F7E6C4;
+}
+
+.cartSection{
+    padding-block: 2.5rem;
+    max-width: 850px;
+    margin: 0 auto;
+   
+}
+.cartList {
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+.card {
+    width: 425px;
+    height: 75px;
+    border-radius: 5px;
+    background-color: #f1f1f1;
+    box-shadow: 2px 2px 2px rgba(0,0,0, .3);
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.cartImg {
+    width: 100%;
+    height: 75px;
+}
+.nameSec, .quantitySec {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    padding-inline: 1rem;
+}
+

@@ -1,0 +1,32 @@
+.accordion {
+    max-width: 500px;
+    margin: 2rem auto;
+    border: 1px solid black;
+    padding-inline: 1rem;
+    box-shadow: 2px 2px 2px rgba(0,0,0, .5);
+    border-radius: 5px;
+    font-family: 'Courier New', Courier, monospace;
+}
+.accordion-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-inline: 2rem;
+}
+.acc-btn {
+    font-size: 1.2rem;
+    background-color: burlywood;
+    border: none;
+    border-radius: 3px;
+    padding: .3rem .8rem;
+    cursor: pointer;
+    transition: .45s;
+}
+.acc-btn:hover {
+    transform: scale(1.05);
+}
+.accordion-info {
+    padding-inline: 2rem;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    letter-spacing: 1px;
+}

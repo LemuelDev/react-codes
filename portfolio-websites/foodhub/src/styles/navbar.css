@@ -1,0 +1,85 @@
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 15px 0;
+    width: 100%;
+    position: fixed;
+    background: rgba( 255, 255, 255, 0.45 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 4.5px );
+    -webkit-backdrop-filter: blur( 4.5px );
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+.logo {
+    font-size: 2rem;
+    color: #fb6c38;
+}
+.nav-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+.nav-links li {
+    list-style: none;
+}
+.nav-links li a {
+    text-decoration: none;
+    color: #111;
+    transition: all .5s ease;
+}
+.homepage {
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background: linear-gradient( rgba(0,0,0,.2), rgba(0,0,0,.2)),
+    url(../images/bg.jpg) no-repeat center;
+
+}
+.hero-section {
+    padding-top: 10rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    max-width: 1100px;
+    margin: 0 auto;
+    font-size: 1.2rem;
+}
+.text-section p {
+    padding-bottom: .5rem;
+}
+.text-section h4 {
+    font-size: 2.5rem;
+}
+.image-section {
+    max-width: 50%;
+}
+.image-section img {
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
+}
+.text-section {
+    margin-left: 5rem;
+}
+.hero-section h4 {
+    font-size: 2.5rem;
+    color: #fb6c38;
+}
+.btn-reach {
+    padding: .7rem 1.5rem;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    background-color: #fb6c38;
+    color: #111;
+    font-size: 1.1rem;
+    transition: .5s ease;
+    cursor: pointer;
+}
+.btn-reach:hover {
+    background-color: #e97e56;
+}

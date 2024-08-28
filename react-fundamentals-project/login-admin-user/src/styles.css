@@ -1,0 +1,75 @@
+.authentic {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: 90vh;
+    text-align: center;
+    width: 100%;
+}
+h1 {
+    font-size: 2rem;
+    padding-bottom: 1rem;
+    font-family: cursive;
+}
+.authentic form {
+    display: grid;
+    place-content: center;
+    padding: 3rem 3.5rem;
+    backdrop-filter: blur(18px) saturate(200%);
+    -webkit-backdrop-filter: blur(18px) saturate(200%);
+    background-color: rgba(17, 25, 40, 0.79);
+    border-radius: 12px;
+    border: 1px solid rgba(255, 255, 255, 0.125);
+    height: 220px;
+    box-shadow: 3px 4px 6px  rgba(0,0,0,.2);
+}
+.authentic input {
+    padding: .6rem 1.5rem;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    background-color: #f1f1f1;
+    transition: all 2s ease;
+    font-size: 1.1rem;
+    margin-bottom: 1rem;
+    box-shadow: 0px 4px 6px rgba(0,0,0,.2);
+}
+.authentic input:hover {
+    background-color: #d3d3d3;
+}
+.authentic .errors {
+    margin: 0;
+    color: red;
+    padding-top: 1rem;
+}
+.btn-login {
+    padding: .6rem 1rem;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    background-color: #64CCC5;
+    cursor: pointer;
+    font-size: 1.2rem;
+    transition: all 1s ease;
+}
+.btn-login:hover {
+    background-color: #3c9d97;
+}
+.user-auth {
+    text-align: center;
+    font-size: 1.1rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding-top: 1rem;
+}
+.user-auth span {
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: .45s;
+    color: #64CCC5;
+}
+.user-auth span:hover {
+    color: #3c9d97;
+    text-shadow: 2px 4px 6px rgba(0,0,0,.2);
+    font-size: 1.3rem;
+}

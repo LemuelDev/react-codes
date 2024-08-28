@@ -1,0 +1,32 @@
+.image-slider {
+  max-width: 500px;
+  margin: 2rem auto;
+  padding: 2rem;
+}
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  padding: 10px;
+}
+.arrow {
+  font-size: 2rem;
+  text-shadow: 2px 2px 2px rgba(0,0,0, .3);
+}
+.title-sec {
+  padding-top: 2rem;
+  text-align: center;
+}
+.title-sec h4 {
+  font-size: 1.8rem;
+  font-family: cursive;
+}
+.title-sec p {
+  font-size: 1.3rem;
+}
+.img {
+  max-width: 350px;
+  height: 300px;
+  border-radius: 10px;
+}

@@ -1,0 +1,45 @@
+#services {
+    width: 100%;
+    height: auto;
+    text-align: center;
+}
+.service-wrapper {
+    max-width: 950px;
+    margin: 0 auto;
+    padding-inline: 1rem;
+    text-align: center;
+    padding-bottom: 2rem;
+}
+.service-title {
+    font-size: 2.5rem;
+    padding-block: 1.5rem;
+    padding-block-start: 3rem;
+}
+.service-flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+    padding-top: 5rem;
+}
+.service-card {
+    width: 300px;
+    height: auto;
+    padding: 2rem;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    
+}
+ .card-bot {
+    padding-top: 1rem;
+}
+.card-bot h4{
+    font-size: 1.5rem;
+    color: #fb6c38;
+    padding-bottom: .5rem;
+}
+.card-top {
+    font-size: 2.5rem;
+}

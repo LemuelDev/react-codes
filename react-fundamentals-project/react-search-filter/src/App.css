@@ -1,0 +1,19 @@
+.wrapper-list {
+  max-width: 500px;
+  margin: 0 auto;
+  display: grid;
+  place-content: center;
+  text-align: center;
+  gap: 1rem;
+  padding-top: 3rem;
+}
+.list-items li {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+.wrapper-list h4 {
+  font-size: 2rem;
+  font-family: cursive;
+}

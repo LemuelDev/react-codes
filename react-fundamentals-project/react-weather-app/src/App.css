@@ -1,0 +1,85 @@
+.wrapper {
+  max-width: 500px;
+  margin: 0 auto;
+  display: grid;
+  text-align: center;
+  place-content: center;
+  min-height: 90vh;
+}
+.wrapper-content {
+  background: rgba( 255, 255, 255, 0.2 );
+  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+  backdrop-filter: blur( 15.5px );
+  -webkit-backdrop-filter: blur( 15.5px );
+  border-radius: 10px;
+  border: 1px solid rgba( 255, 255, 255, 0.18 );
+  width: 300px;
+  padding: 2rem 3rem;
+  min-height: 150px;
+}
+
+.wrapper-content h4 {
+  font-size: 2.3rem;
+  padding-block: 1rem;
+}
+.weather-input {
+  padding: .7rem 2rem;
+  border-radius: 5px;
+  border: none;
+  outline-color: blue;
+  background-color: #f1f1f1;
+  transition: .45s ease;
+}
+.weather-input:hover {
+  background-color: #eeeaea;
+}
+.error-msg {
+  font-size: 1.1rem;
+  padding-block: .8rem;
+}
+.render-section h5{
+  padding-block: .5rem;
+  font-size: 2rem;
+  color: rgb(235, 51, 31);
+}
+.render-section p {
+    padding-block: .5rem;
+    font-size: 1.1rem;
+}
+.render-section h2 {
+  font-size: 1.8rem;
+  padding-block: .8rem;
+}
+.render-section h3 {
+  padding-block: .7rem;
+  font-size: 1.7rem;
+}
+.render-section h6 {
+  font-size: 1rem;
+  color: rgb(58, 58, 116);
+  transition: .45s ease;
+  cursor: pointer;
+}
+.render-section h6:hover {
+  text-decoration: underline;
+  font-size: 1.05rem;
+}
+.form {
+  display: grid;
+  place-content: centers;
+}
+.search-btn {
+  padding: .5rem 1.5rem;
+  max-width: 500px;
+  margin: 1rem auto;
+  background-color: salmon;
+  color: #f1f1f1;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  transition: .50s;
+}
+.search-btn:hover {
+  background-color: rgb(214, 101, 88);
+  transform: scale(1.05);
+}
